@@ -1,0 +1,81 @@
+/* Bio Section - Modern Glassmorphism */
+.Bio {
+    text-align: center;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.2); /* Frosted glass effect */
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    max-width: 650px;
+    margin: 30px auto;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-in-out forwards;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease-in-out;
+    margin-top: -20px;
+  }
+  
+  /* Hover Effect */
+  .Bio:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Fade-in & Slide-up Animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Text Styles */
+  .Bio p {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Highlighted Call-to-Action */
+  .Bio p.scroll1 {
+    color: #ffcc00;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    animation: glowText 1.5s infinite alternate;
+  }
+  
+  /* Text Glow Effect
+  @keyframes glowText {
+    from {
+      text-shadow: 2px 2px 5px rgba(255, 204, 0, 0.6);
+    }
+    to {
+      text-shadow: 4px 4px 10px rgba(255, 204, 0, 1);
+    }
+  } */
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .Bio {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .Bio p {
+      font-size: 14px;
+    }
+  
+    .Bio p.scroll1 {
+      font-size: 22px;
+    }
+  }
+  

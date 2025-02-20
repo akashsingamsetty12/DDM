@@ -1,23 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Logo from "./components/Logo";
+import EventList from "./components/EventList";
+import "./App.css";
+import Bio from "./components/Bio";
+import ScrollArrow from "./components/ScrollArrow.js";
+import Film from "./components/Film";
+import Cinema from "./components/Cinema";
 
 function App() {
+  const [showEventList, setShowEventList] = useState(false);
+  const [showCinema, setShowCinema] = useState(false);
+
+  const handleArrowClick = () => {
+    setShowEventList(true);
+  };
+
+  const handleBackClick = () => {
+    setShowEventList(false);
+  };
+  const handleCloseCinema = () => {
+    setShowCinema(false);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      {!showEventList && <Film />}
+
+      <Logo />
+      <Bio />
+      <ScrollArrow onClick={handleArrowClick} />
+      {showEventList && (
+        <div className="event-list show ani">
+          <button className="back-button" onClick={handleBackClick}>
+            Back
+          </button>
+          <div className="ab">
+            <EventList />
+          </div>
+        </div>
+      )}
+
+      {showCinema && <Cinema onClose={handleCloseCinema} />}
     </div>
   );
 }

@@ -1,0 +1,24 @@
+.scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  mix-blend-mode:darken;
+}
+
+.scroll .arrow {
+  width: 50px;
+  border-radius: 90px;
+  animation: upDown 2s infinite;
+  margin-top: 25px;
+}
+
+@keyframes upDown {
+  0%, 100% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+

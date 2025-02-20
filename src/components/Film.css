@@ -1,0 +1,57 @@
+.film-strip-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 2;
+    opacity: 0.3;
+    mix-blend-mode:soft-light;
+  }
+  
+  .film-strip-track {
+    position: absolute;
+    width: 100vw;
+    height: 400vh;
+    display: flex;
+    flex-direction: column;
+    animation: filmScroll 10s linear infinite;
+  }
+  .film-strip {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+  @keyframes filmScroll {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+  @keyframes filmScrollReverse {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  .film-strip-track-1 {
+    animation: filmScroll 30s linear infinite;
+    animation-delay: 0s;
+  }
+  
+  .film-strip-track-2 {
+    animation: filmScrollReverse 30s linear infinite; 
+    animation-delay: 0s;
+  }
+  
+  .film-strip-track-3 {
+    animation: filmScroll 30s linear infinite;
+    animation-delay: 0s;
+  }
