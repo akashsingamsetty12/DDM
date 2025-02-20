@@ -74,6 +74,7 @@ const EventList = () => {
           />
         ))}
       </ul>
+      <p>Created by Singamsetty akash</p>
     </div>
   );
 };
