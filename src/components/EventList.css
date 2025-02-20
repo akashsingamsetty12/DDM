@@ -5,13 +5,14 @@
   box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3); 
   transition: transform 0.5s ease-in-out;
   border: 2px solid rgba(255, 255, 255, 0.5);
+  overflow: hidden;
 }
 .event-list-container p{
   color: #4adbbbac;
   position: absolute;
   right: 15px;
   text-align: right;
-  bottom: -107vh;
+  bottom: -105.5vh;
 }
 .event-list-container h2 {
   font-size: 35px;
