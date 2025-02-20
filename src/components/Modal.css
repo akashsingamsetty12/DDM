@@ -16,11 +16,12 @@
 /* Modal Content - Movie Ticket Style */
 .modal-content {
   background: linear-gradient(to bottom, #222, #111);
-  padding: 35px;
+  padding: 42px 35px 60px 35px;
   border-radius: 10px;
   box-shadow: 0 6px 30px rgba(255, 215, 0, 0.5); /* Golden spotlight effect */
   max-width: 600px;
   width: 90%;
+  height: auto;
   position: relative;
   text-align: center;
   border-style:dashed;
@@ -43,13 +44,13 @@
   padding: 8px 20px;
   font-size: 18px;
   color: white;
-  background: linear-gradient(to right, #ff0000, #b30000); /* Red velvet curtain */
+  background: linear-gradient(90deg, #d8345f, #ff4e00);
   border: none;
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.3s ease;
   position: absolute;
-  bottom: 10px;
+  top: 10px;
   right: 10px;
   font-weight: bold;
 }

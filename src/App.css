@@ -122,6 +122,9 @@ html, body {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  position: absolute;
+  top:10px;
+  right: 10px;
   transition: background 0.3s ease-in-out;
 }
 .back-button:hover {
@@ -173,19 +176,18 @@ html, body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh; /* Cover the entire viewport height */
+  height: 100vh;
   overflow: hidden;
-  z-index: 2; /* Above logo but below other content */
+  z-index: 2;
   opacity: 0.4;
-  pointer-events: none; /* Allow clicks to pass through */
+  pointer-events: none;
 }
 
-/* Arrow Container */
 .ScrollArrow {
   position: absolute;
-  bottom: 20px; /* Adjust as needed */
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 3; /* Ensure arrow is above the film strip */
-  pointer-events: auto; /* Ensure arrow is clickable */
+  z-index: 3;
+  pointer-events: auto; 
 }

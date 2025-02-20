@@ -32,7 +32,7 @@ function App() {
       {showEventList && (
         <div className="event-list show ani">
           <button className="back-button" onClick={handleBackClick}>
-            Back
+            X
           </button>
           <div className="ab">
             <EventList />

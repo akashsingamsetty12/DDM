@@ -32,8 +32,8 @@
 }
 
 .event-image {
-  width: 170px;
-  height: 170px;
+  width: 200px;
+  height: 200px;
   border-radius: 8px;
   margin-right: 16px;
   margin-left: -20px;
@@ -45,9 +45,9 @@
 }
 
 .event-details h3 {
-  margin: 0;
+  margin-bottom: 10px;
   font-size: 20px;
-  color: #333;
+  color: #ffd700;
 }
 
 .event-details p {
@@ -69,4 +69,30 @@
 
 .event-button:hover {
   background-color: #ff00005b;
+}
+
+
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(90deg, #d8345f, #ff4e00);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
+}
+
+.register-button:hover {
+  background: linear-gradient(90deg, #ff4e00, #d8345f);
+  transform: scale(1);
+}
+
+.register-button:disabled {
+  background: gray;
+  cursor: not-allowed;
 }

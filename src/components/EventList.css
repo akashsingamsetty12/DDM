@@ -1,10 +1,10 @@
 .event-list-container {
   padding: 49px 39px;
-  background-color: #1a1a1a; /* Dark background like a movie theater */
+  background-color: #1a1a1a; 
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3); /* Golden glow effect */
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3); 
   transition: transform 0.5s ease-in-out;
-  border: 2px solid rgba(255, 215, 0, 0.5); /* Golden film border */
+  border: 2px solid rgba(255, 215, 0, 0.5);
 }
 
 .event-list-container h2 {
@@ -20,10 +20,11 @@
 .event-list-container ul {
   list-style-type: none;
   padding: 0;
+  color: #f1912d;
 }
 
 .event-list-container li {
-  background: rgba(30, 30, 30, 0.8); /* Dark semi-transparent */
+  background: rgba(30, 30, 30, 0.8); 
   padding: 50px;
   margin-bottom: 25px;
   border-radius: 8px;
