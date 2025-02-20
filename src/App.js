@@ -9,7 +9,7 @@ import Cinema from "./components/Cinema";
 
 function App() {
   const [showEventList, setShowEventList] = useState(false);
-  const [showCinema, setShowCinema] = useState(false);
+  const [showCinema, setShowCinema] = useState(true);
 
   const handleArrowClick = () => {
     setShowEventList(true);

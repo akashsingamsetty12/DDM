@@ -9,9 +9,9 @@ const Event = ({ event, isOpen, onOpen, onClose }) => {
     setIsRedirecting(true);
 
     setTimeout(() => {
-      window.open(event.link, "_blank"); // Open in new tab
+      window.open(event.link, "_blank");
       setIsRedirecting(false);
-    }, 2000); // 2 seconds delay
+    }, 500);
   };
 
   return (

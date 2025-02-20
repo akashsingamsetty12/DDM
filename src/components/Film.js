@@ -1,9 +1,8 @@
 import React from "react";
-import FilmStrip1 from "../Images/1.png";
-import FilmStrip2 from "../Images/2.png";
+import FilmStrip1 from "../Images/4.png";
+import FilmStrip2 from "../Images/1.png";
 import FilmStrip3 from "../Images/3.png";
 import "./Film.css";
-
 const Film = () => {
   return (
     <div className="film-strip-container">

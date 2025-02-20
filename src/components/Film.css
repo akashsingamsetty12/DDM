@@ -41,12 +41,12 @@
     }
   }
 
-  .film-strip-track-1 {
+  .film-strip-track-2 {
     animation: filmScroll 30s linear infinite;
     animation-delay: 0s;
   }
   
-  .film-strip-track-2 {
+  .film-strip-track-1 {
     animation: filmScrollReverse 30s linear infinite; 
     animation-delay: 0s;
   }
