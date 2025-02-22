@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './EventList.css';
 import Event from './Event';
-import AD from '../Images/AD.jpg';
 
 const events = [
   {
@@ -15,7 +14,7 @@ const events = [
   {
     name: "Reel Competition",
     time: "11:00 AM",
-    image: "https://th.bing.com/th/id/OIP.ilBRfaPfoOia_wzZ6NPJTwHaHa?w=192&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIVlm55KQE8rEdRtpjJ3X2DD_Dg8Lno8phOHUKS4_azXG25ZQfkw0YR64VueipZDbjuhw&usqp=CAU",
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfK-zXZpvuWy5QO0fObUl1InE7cV8ssIVtJ4PZfPhLG5P1Exw/viewform?usp=header",
     text: "Show your creativity in short video form."
   },
@@ -29,14 +28,14 @@ const events = [
   {
     name: "Ad's - Remaking",
     time: "01:00 PM",
-    image: AD,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6sRqlD7melaKeu4imFHqM8ZOzb1U6rK6XLsetEFD2hA690B9gtOrL3dMAJ09IBfJt8ok&usqp=CAU",
     link: "https://forms.gle/7k7oKNSgWDvsZUek9",
     text: "Recreate iconic advertisements."
   },
   {
     name: "Meme-King",
     time: "02:00 PM",
-    image: "https://th.bing.com/th/id/OIP.PwS2yy3cPSLHuVMi7iT4AwHaD4?w=306&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    image: "https://images.filmibeat.com/img/2013/11/08-brahmanandam-welcome-back.jpg",
     link: "https://forms.gle/a9F1jTccFBobNDcY9",
     text: "Be the king of memes!"
   },
