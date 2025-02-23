@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './EventList.css';
 import Event from './Event';
+import A from "../Images/Reels.jpeg"
 
 const events = [
   {
@@ -14,7 +15,7 @@ const events = [
   {
     name: "Reel Competition",
     time: "11:00 AM",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIVlm55KQE8rEdRtpjJ3X2DD_Dg8Lno8phOHUKS4_azXG25ZQfkw0YR64VueipZDbjuhw&usqp=CAU",
+    image: A,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfK-zXZpvuWy5QO0fObUl1InE7cV8ssIVtJ4PZfPhLG5P1Exw/viewform?usp=header",
     text: "Show your creativity in short video form."
   },
