@@ -50,7 +50,7 @@ const events = [
   {
     name: "Poster Making ",
     time: "03:00 PM",
-    image: "https://th.bing.com/th/id/OIP.iwIpbNuocpJSxbfnyKgARwHaE8?w=235&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvao65dnbeUJCQ4EIsCJV_lYToOgo8jd5nQQ&s",
     link: "https://forms.gle/dWha2UUAMWGMufrM7",
     text: "Recreate iconic Posters"
   }
