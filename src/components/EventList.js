@@ -46,7 +46,15 @@ const events = [
     image: "https://th.bing.com/th/id/OIP.iwIpbNuocpJSxbfnyKgARwHaE8?w=235&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
     link: "https://forms.gle/dS9GV79f6D6oBrrj7",
     text: "Engage your audience with a compelling story."
+  },
+  {
+    name: "Poster Making ",
+    time: "03:00 PM",
+    image: "https://th.bing.com/th/id/OIP.iwIpbNuocpJSxbfnyKgARwHaE8?w=235&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    link: "https://forms.gle/dWha2UUAMWGMufrM7",
+    text: "Recreate iconic Posters"
   }
+
 ];
 
 const EventList = () => {
