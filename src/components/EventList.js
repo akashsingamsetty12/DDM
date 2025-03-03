@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './EventList.css';
 import Event from './Event';
 import A from "../Images/Reels.jpeg"
+import B from "../Images/Poster.jpg"
 
 const events = [
   {
@@ -50,7 +51,7 @@ const events = [
   {
     name: "Poster Making ",
     time: "03:00 PM",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvao65dnbeUJCQ4EIsCJV_lYToOgo8jd5nQQ&s",
+    image: B,
     link: "https://forms.gle/dWha2UUAMWGMufrM7",
     text: "Recreate iconic Posters"
   }
